@@ -55,6 +55,4 @@ ON e.id = ep.emp_id
 JOIN project p
 ON ep.project_id = p.id
 WHERE 
-  p.project_name = 'Watch paint dry' AND
--- ???
-  
+  p.project_name = 'Remove old stock';
